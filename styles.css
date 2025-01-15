@@ -2,10 +2,15 @@ body {
     font-family: Arial, sans-serif;
     background-color: rgba(16, 63, 174, 0.24);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
     margin: 0;
+}
+
+#quiz-title {
+    text-align: center;
+    margin-top: 20px;
 }
 
 #quiz-container {
@@ -15,6 +20,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .btn-container {
