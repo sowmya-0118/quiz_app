@@ -11,7 +11,6 @@ const questions = [
     { question: "What is the speed of light?", answers: [{ text: "299,792,458 meters per second", correct: true }, { text: "150,000,000 meters per second", correct: false }, { text: "1,000,000 meters per second", correct: false }, { text: "300,000 meters per second", correct: false }] }
 ];
 
-
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
 const nextButton = document.getElementById('next-btn');
